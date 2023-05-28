@@ -1,13 +1,11 @@
-#ifndef HEADER
-#define HEADER
+#ifndef MAIN_H
+#define MAIN_H
 #include <stdarg.h>
 #include <stdlib.h>
 #include <stdio.h>
 #include <limits.h>
 #include <unistd.h>
-
 int _print_chr(char q);
 int _printf(const char *format, ...);
 int _print_str(char *str);
-
 #endif
